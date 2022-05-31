@@ -11,6 +11,7 @@ install:
 	cp -rf 'Font Awesome 6 Pro-Solid-900.otf' "$(FONT_DIR)"
 	cp -rf 'Font Awesome 6 Pro-Thin-100.otf' "$(FONT_DIR)"
 	cp -rf 'LayoutFont.ttf' "$(FONT_DIR)"
+	fc-cache -fv
 
 uninstall:
 	rm -rf "$(FONT_DIR)/Font Awesome 6 Brands-Regular-400.otf"
